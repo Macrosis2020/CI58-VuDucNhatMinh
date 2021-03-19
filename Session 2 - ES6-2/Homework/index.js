@@ -28,6 +28,7 @@ class timer {
         this.pause = document.createElement('button');
         this.pause.textContent = 'Pause';
         this.pause.addEventListener('click', () => {
+            this.timerState = 0;
             clearInterval(this.timerInterval);
         });
         this.stop = document.createElement('button');
