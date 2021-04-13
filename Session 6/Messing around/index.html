@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class='app-body'>
+        <div style="text-align: center; margin: 10px; font-size: 200%;">POKEMON INFO DISPLAY APP</div>
+        <!-- STATS -->
+        <div>
+            <div style="text-align: center;">
+                <input type="number" placeholder="HP" id="hp-ip">
+                <input type="number" placeholder="ATK" id="atk-ip">
+                <input type="number" placeholder="DEF" id="def-ip">
+            </div>
+            <div style="text-align: center;">
+                <input type="number" placeholder="SPATK" id="spatk-ip">
+                <input type="number" placeholder="SPDEF" id="spdef-ip">
+                <input type="number" placeholder="SPD" id="spd-ip">
+            </div>
+        </div>
+        <div style="margin-bottom: 20px; margin-left: auto; margin-right: auto;" id='init-btn' class='btn marpad'>
+            Initialize</div>
+        <div id='display-box' class="d-flex justify-center">
+            <div id='stat-box' class='statbox'></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

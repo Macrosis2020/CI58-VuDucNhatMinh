@@ -1,0 +1,143 @@
+body {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.bold {
+
+}
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.vh100 {
+    height: 100vh;
+}
+.centering {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.error-msg {
+    color: red;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.column-flex {
+    flex-direction: column;
+}
+.item {
+    /* background-color: black; */
+    border: white solid 1px;
+    color: white;
+}
+.grow-1 {
+    flex-grow: 1;
+}
+.z-index-1 {
+    z-index: 1;
+}
+.pseudo-btn {
+    border: white solid 1px;
+    background-color: black;
+    color: white;
+    user-select: none;
+    padding: 3px;
+    margin: 5px;
+    height: fit-content;
+    width: fit-content;
+}
+.pseudo-btn:hover {
+    color: black;
+    background-color: white;
+}
+.convo-box {
+    border: white solid 1px;
+    padding: 3px;
+    margin: 5px;
+}
+.convo-box:hover {
+    background-color: rgb(70, 70, 70);
+}
+.convo-box.active-convo {
+    /* border: white dashed 1px; */
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.pad {
+    padding: 3px;
+}
+.marg {
+    margin: 5px;
+}
+button {
+    user-select: none;
+}
+.user-field {
+    display: inline-block;
+    width: 50%;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.form-input {
+    border: rgb(255, 255, 255) solid 1px;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-btn {
+    border: rgb(255, 255, 255) solid 1px;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-btn:hover {
+    color: black;
+    background-color: white;
+}
+.title {
+    margin: 10px;
+    font-size: 250%;
+    /* font-weight: 700; */
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  :-ms-input-placeholder {
+    color: white;
+  }
+  
+  ::-ms-input-placeholder {
+    color: white;
+  }
+
+.overflow-y {
+    overflow-y: auto;
+}
+.overflow-x {
+    overflow-x: auto;
+}
+.word-wrap {
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+}

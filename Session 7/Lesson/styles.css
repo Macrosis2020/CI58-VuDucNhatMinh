@@ -1,0 +1,81 @@
+body {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+}
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.centering {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.error-msg {
+    color: red;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.column-flex {
+    flex-direction: column;
+}
+.item {
+    /* background-color: black; */
+    border: white solid 1px;
+    color: white;
+}
+.grow-1 {
+    flex-grow: 1;
+}
+.z-index-1 {
+    z-index: 1;
+}
+.pseudo-btn {
+    border: white solid 1px;
+    background-color: black;
+    color: white;
+    user-select: none;
+    padding: 3px;
+    margin: 5px;
+    height: fit-content;
+    width: fit-content;
+}
+.pseudo-btn:hover {
+    color: black;
+    background-color: white;
+}
+.convo-box {
+    border: white solid 1px;
+    padding: 3px;
+    margin: 5px;
+}
+.convo-box:hover {
+    background-color: rgb(70, 70, 70);
+}
+.convo-box.active-convo {
+    /* border: white dashed 1px; */
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.pad {
+    padding: 3px;
+}
+.marg {
+    margin: 5px;
+}
+button {
+    user-select: none;
+}

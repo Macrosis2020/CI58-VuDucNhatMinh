@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: black;
+        }
+        .d-flex {
+            display: flex;
+        }
+        .column-flex {
+            flex-direction: column;
+        }
+        .item {
+            background-color: black;
+            border: white solid 1px;
+            color: white;
+        }
+        .grow-1 {
+            flex-grow: 1;
+        }
+        .grow-5 {
+            flex-grow: 5;
+        }
+        .grow-7 {
+            flex-grow: 7;
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 100vh; width: 100vw;" class="d-flex">
+        <div class="item" style="width: 200px;">Convo List</div>
+        <div class="item grow-1 d-flex column-flex">
+            <div class="item" style="height: 30px;">InfoBar</div>
+            <div class="item grow-1 d-flex">
+                <div class="item grow-1 d-flex column-flex">
+                    <div class="item grow-1">Messages</div>
+                    <div class="item" style="height: 30px;">Composer</div>
+                </div>
+                <div class="item" style="width: 200px;">Right Sidebar</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

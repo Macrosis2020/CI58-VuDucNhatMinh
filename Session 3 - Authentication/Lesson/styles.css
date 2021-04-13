@@ -1,0 +1,15 @@
+/* body {
+    background-color: black;
+    color: white;
+} */
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.centering {
+    justify-content: center;
+    text-align: center;
+}
+.error-msg {
+    color: red;
+}

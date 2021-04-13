@@ -88,35 +88,37 @@ class timer {
     }
     stopTimer() {
         clearInterval(this.timerInterval);
-            this.timerState = 0;
-            this.persecCount = 0;
-            this.persec.textContent = '00';
-            this.secCount = 0;
-            this.sec.textContent = '00';
-            this.minCount = 0;
-            this.min.textContent = '00';
+        this.timerState = 0;
+        this.persecCount = 0;
+        this.persec.textContent = '00';
+        this.secCount = 0;
+        this.sec.textContent = '00';
+        this.minCount = 0;
+        this.min.textContent = '00';
     }
 }
 let timerCount = 1;
 const timerList = [];
 const timerbox = document.getElementById('timer-box');
-addTimer = function() {
+addTimer = function () {
     newTimer = new timer;
     newTimer.renderTimer(timerbox, timerCount);
     timerList.push(newTimer);
     timerCount++;
 }
-{for (i=0;i<5;i++) {
-    addTimer();
-}}
+{
+    for (i = 0; i < 5; i++) {
+        addTimer();
+    }
+}
 console.log(timerList);
-stopAll = function() {
-    for (i=0; i<timerList.length; i++) {
+stopAll = function () {
+    for (i = 0; i < timerList.length; i++) {
         timerList[i].stopTimer();
     }
 }
-startAll = function() {
-    for (i=0; i<timerList.length; i++) {
+startAll = function () {
+    for (i = 0; i < timerList.length; i++) {
         timerList[i].startTimer();
     }
 }

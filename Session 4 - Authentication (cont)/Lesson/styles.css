@@ -1,0 +1,19 @@
+/* body {
+    background-color: black;
+    color: white;
+} */
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.centering {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.error-msg {
+    color: red;
+}
